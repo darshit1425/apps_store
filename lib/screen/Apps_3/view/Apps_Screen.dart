@@ -11,9 +11,10 @@ class _App_PageState extends State<App_Page> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-        child: CupertinoPageScaffold(
-          backgroundColor: CupertinoColors.white,
-          child: Column(),
-        ));
+      child: CupertinoPageScaffold(
+        backgroundColor: CupertinoColors.white,
+        child: Column(),
+      ),
+    );
   }
 }
