@@ -39,7 +39,13 @@ class _Game_PageState extends State<Game_Page> {
             ),
             Column(
               children: [
-                Text("   NEW GAME",style: TextStyle(fontSize: 15,color: Colors.blueAccent,fontWeight: FontWeight.w500),),
+                Text(
+                  "   NEW GAME",
+                  style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.blueAccent,
+                      fontWeight: FontWeight.w500),
+                ),
                 Container(
                   height: 430,
                   width: 300,
@@ -47,8 +53,7 @@ class _Game_PageState extends State<Game_Page> {
                   //     BoxDecoration(borderRadius: BorderRadius.circular(10)),
                   child: Image.asset("assets/today/g3.png"),
                 ),
-
-             ],
+              ],
             ),
           ],
         ),

@@ -13,7 +13,7 @@ void main() {
     CupertinoApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (p0) => const Game_Page(),
+        '/': (p0) => const Home_Screen(),
       },
     ),
   );
